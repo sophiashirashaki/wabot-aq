@@ -30,7 +30,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
+╭─「 Takanashi Rikka 」
 │ Hai, %name!
 │
 │ Tersisa *%limit Limit*
@@ -39,13 +39,13 @@ const defaultMenu = {
 │ %totalexp XP in Total
 │ 
 │ Tanggal: *%week %weton, %date*
-│ Tanggal Islam: *%dateIslamic*
+│ Image: Nothing here!!
 │ Waktu: *%time*
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
+│ Github: https://github.com/sophiashirashaki
+│ Owner: wa.me/6285751657758
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
