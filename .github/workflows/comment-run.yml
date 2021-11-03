@@ -1,4 +1,4 @@
-name: "Comment run"
+name: "Takanashi Rikka"
 on:
   issue_comment:
     types: [created, edited]
@@ -14,4 +14,4 @@ jobs:
     - uses: nwtgck/actions-comment-run@v1.1
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        allowed-associations: '["OWNER","CONTRIBUTOR"]'
+        allowed-associations: '["6285751657758","CONTRIBUTOR"]'
